@@ -1,4 +1,130 @@
-h1 {
-    background-color: rgba(255, 255, 0, 0.664);
-    width: 400px;
+body {
+    display:flex;
+    flex-direction: column;
+   
+    margin: 50px;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    font-size: 24px;
+    color: #E5E7EB;
+}
+.header ul {
+    list-style-type: none;
+    display:flex;
+    font-size: 18px;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+.firstelement {
+    padding: 50px;
+    background-color: #1F2937;
+}
+.maintitle {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+.firstelement button {
+    max-width: 250px;
+}
+
+.leftright {
+    display:flex;
+    justify-content: space-between;
+}
+    
+
+.left {
+    display:flex;
+    flex-direction: column;
+    width:500px;
+    gap: 20px;
+}
+.right {
+   width: 1000px;
+   
+}
+.content {
+    color: #E5E7EB;
+}
+
+.secondelement{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    padding: 50px;
+    background-color: #E5E7EB;
+    
+}
+
+.randoinfo {
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.co1,.co2, .co3,.co4,.co5,.co6 {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding:20px;
+    
+}
+
+.containers {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-bottom: 100px;
+}
+.qoutecard {
+    display:flex;
+    flex-direction: column;
+    font-size: 36px;
+    color: #1F2937;
+    width: 690px;
+    align-self: center;
+
+    
+}
+.qoute {
+    font-style: italic;
+    text-align: left;
+}
+.author {
+    font-weight: 800;
+    text-align: right;
+}
+.secondelement> .signupcard {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    display:flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 32px;
+}
+.signupcard button {
+    background-color: #3882F6;
+    color:#E5E7EB;
+    font-weight: 800;
+}
+    
+.signupcard .text .bold {
+    font-weight:800;
+}
+
+.footer {
+    display:flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+
+    padding: 50px;
+}
+img {
+    max-width: 100%;
 }
